@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Users/test/Documents/tech xavier's/PYEXPO-DEMO/login.css">
+    <title>Xavier's market</title>
+    <link rel="stylesheet"  href="{% static "css/login.css" %}">
+    <script>src= "{% static 'js/login.js'%}"</script>
+</head>
+<body>
+    <div class="login">
+        <h1>Log in </h1>
+        <label for="loginUsername">Username:</label>
+        <input type="text" name="loginUsername" id="loginUsername" placeholder="Username">
+        <br>
+        <label for="loginPassword">Password:</label>
+        <input type="text" name="loginPassword" id="loginPassword" placeholder="password">
+        <br>
+        <button id="loginButton">Log in</button>
+        <script src="/Users/test/Documents/tech xavier's/PYEXPO-DEMO/login.js"></script>
+        <h4>or</h4>
+        <p>
+            create a new account?<a href="signup">sign up</a>
+        </p>
+    </div>
+</body>
+</html>
