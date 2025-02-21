@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cart.css">
+    <title>Xavier’s Market</title>
+    <link rel="stylesheet" href="{% static 'css/cart.css' %}">
+    <script src="{% static 'js/cart.js' %}"></script>
+    
+</head>
+<body>
+    <div class="cart">
+        <h2>Shopping Cart</h2>
+        <div id="cart-items">
+            <div class="cart-item" data-price="10" onclick="goToProductPage('apple.html')">
+                <img src="{% static 'photos/tomato.jpg' %}" alt="tomato">
+                <div class="cart-item-details">
+                    <div class="cart-item-name">tomato</div>
+                    <div class="cart-item-date">Added on: 2025-02-21</div>
+                </div>
+                <div>
+                    <div class="cart-item-price">$10</div>
+                    <button class="remove-button" onclick="removeItem(event, this)">Remove</button>
+                </div>
+            </div>
+            <div class="cart-item" data-price="15" onclick="goToProductPage('banana.html')">
+                <img src="{% static 'photos/banana.png' %}" alt="banana">
+                <div class="cart-item-details">
+                    <div class="cart-item-name">Banana</div>
+                    <div class="cart-item-date">Added on: 2025-02-21</div>
+                </div>
+
+                <div>
+                    <div class="cart-item-price">$15</div>
+                    <button class="remove-button" onclick="removeItem(event, this)">Remove</button>
+                </div>
+            </div>
+        </div>
+        <div class="buy-all">
+            <span>Total: $<span id="total-price">25</span></span>
+            <button onclick="buyAll()">Buy All</button>
+        </div>
+    </div>
+    <script src="cart.js"></script>
+</body>
+</html>

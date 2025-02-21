@@ -6,7 +6,7 @@ function validateLogin(event) {
 
     // User credentials
     const users = {
-        "admin": { password: "admin123", redirect: "home.html" },
+        "admin": { password: "admin123", redirect: "home" },
         "user1": { password: "password1", redirect: "https://chatgpt.com/" }
     };
 

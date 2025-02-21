@@ -10,6 +10,8 @@ def login(request):
     return render(request, 'login.html')
 def signup(request):
     return render(request, 'signup.html')
+def cart(request):
+    return render(request, 'cart.html')
 
 def user_login(request):
     if request.method == "POST":

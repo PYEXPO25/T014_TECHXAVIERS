@@ -11,6 +11,7 @@
 <body>
 
     <button class="back-button" onclick="goHome()">
+        <a href="{% url 'home' %}">.</a>
         <img src="{% static 'photos/turn-back.png' %}" alt="Back">
     </button>
 
@@ -27,15 +28,10 @@
             <p id="error-message" style="color: #F28500; display: none;">Invalid username or password</p>
             <h4>or</h4>
             <p>
-                Create a new account? <a href="{% static 'signup' %}">Sign up</a>
+                Create a new account? <a href="{% url 'signup' %}">Sign up</a>
             </p>
         </form>
     </div>
-    <script>
-        function goHome() {
-            window.location.href = "{% url 'home' %}";
-        }
-    </script>
 
 </body>
 </html>

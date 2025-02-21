@@ -27,12 +27,12 @@
             <ul>
                 <input type="text" id="search-input" placeholder="Search...">
                 <button onclick="search()">Search</button>
-                <li><a href="home">Home</a></li>
+                <li><a href="{% static 'home.html' %}">Home</a></li>
                 <li><a href="#SHOP">Shop</a></li>
-                <li><a href="">About Us</a></li>
+                <li><a href="{% static 'frontpage.html' %}">About Us</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <li><a href="products">Products</a></li>
-                <li><a href="login">Cart</a></li>
+                <li><a href="cart">Cart</a></li>
                 <li>
                     <a href="{% static 'profile.html' %}">
                         <img src="{% static 'photos/profile-icon.jpg' %}" alt="Profile" class="profile-icon">
