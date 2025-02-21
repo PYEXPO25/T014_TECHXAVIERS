@@ -16,11 +16,18 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path , include
-from . import views
+from . import views ,settings 
+from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
+from django.conf.urls.static import static
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',views.homepage),
-    path('login',views.login),
-    path('signup',views.signup),
+    path('', include('marketplace.urls')),
+    path('',views.homepage , name='home'),
+    path('login/',views.user_login,name='login'),
+    path('signup/',views.signup,name='signup'),
+    path('api/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
+    path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
 ]
+if settings.DEBUG:  # Serve media files during development
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

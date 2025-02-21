@@ -1,0 +1,13 @@
+<h2>Uploaded Images</h2>
+
+{% load cloudinary %}
+
+{% for img in images %}
+    <div style="display: inline-block; margin: 10px;">
+        <img src="{{ img.url }}" alt="{{ img.alt }}">
+    </div>
+{% empty %}
+    <p>No images uploaded yet.</p>
+{% endfor %}
+
+<a href="{% url 'upload_file' %}">Upload Another Image</a>
