@@ -1,6 +1,0 @@
-<form method="post" enctype="multipart/form-data">
-    {% csrf_token %}
-    {{ form.as_p }}
-    <button type="submit">Upload</button>
-    <a href="{% url 'image_list' %}">View Uploaded Images</a>
-</form>
