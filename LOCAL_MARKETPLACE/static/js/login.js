@@ -1,3 +1,4 @@
+
 function goBack() {
     window.location.href = "{% url 'home' %}";
     }
@@ -6,7 +7,7 @@ function validateLogin(event) {
 
     // User credentials
     const users = {
-        "admin": { password: "admin123", redirect: "home" },
+        "admin": { password: "admin123", redirect: "{% url 'home' %}" },
         "user1": { password: "password1", redirect: "https://chatgpt.com/" }
     };
 
