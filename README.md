@@ -5,9 +5,9 @@
 
 ## Problem Statement
 
-Problem Statement ID – PY009
+*Problem Statement ID* – PY009
 
-LOCAL MARKETPLACE FOR FARMERS
+*LOCAL MARKETPLACE FOR FARMERS*
 
 The Local Marketplace for Farmers is a mobile or web-based platform designed to connect local farmers directly with consumers, providing a marketplace to buy and sell fresh, locally grown produce without the need for middlemen. This platform empowers farmers by giving them a direct channel to reach their customers and offer fair prices while allowing consumers to access fresh and affordable produce directly from the source. The platform includes features for price comparison, real-time updates on availability, delivery options, and customer reviews, making it easy for both parties to engage in a smooth and transparent transaction.
 
@@ -25,16 +25,16 @@ Our web platform bridges the gap between farmers and consumers, ensuring fair tr
 
 ## Team Members
 
-Team ID – T014
+*Team ID* – T014
 
 List your team members along with their roles.
 
-- ANISH KARTHIC V S - Team Leader
-- ANAND P - FRONT END
-- ARUNAW RISHE - FRONTEND
-- JAISURYAN S - BACKEND
-- DHARSHINI S - FRONTEND
-- MUZHUMATHI V - DATABASE MANAGER AND TESTER
+- *ANISH KARTHIC V S* - Team Leader
+- *ANAND P* - FRONT END
+- *ARUNAW RISHE* - FRONTEND
+- *JAISURYAN S* - BACKEND
+- *DHARSHINI S*- FRONTEND
+- *MUZHUMATHI V* - DATABASE MANAGER AND TESTER
 
 ![Team Photo](media/team-photo.png)
 
@@ -44,10 +44,10 @@ List your team members along with their roles.
 
 List the technologies and tools used in the project. For example:
 
-- Frontend: HTML, CSS, JavaScript, ReactJS
-- Backend:  Django
-- Database: Postgresql
-- Other Tools: Git, github
+- *Frontend*: HTML, CSS, JavaScript, ReactJS
+- *Backend*:  Django
+- *Database*: Postgresql
+- *Other Tools*: Git, github
 
 ---
 
