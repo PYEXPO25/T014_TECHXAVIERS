@@ -5,7 +5,7 @@
 
 ## Problem Statement
 
-*Problem Statement ID* – PY009
+# *Problem Statement ID* – PY009
 
 *LOCAL MARKETPLACE FOR FARMERS*
 
@@ -29,7 +29,7 @@ Our web platform bridges the gap between farmers and consumers, ensuring fair tr
 
 List your team members along with their roles.
 
-- *ANISH KARTHIC V S* - Team Leader
+- # *ANISH KARTHIC V S* - Team Leader
 - *ANAND P* - FRONT END
 - *ARUNAW RISHE* - FRONTEND
 - *JAISURYAN S* - BACKEND
@@ -129,9 +129,9 @@ Example pages:
 ### 📄 PowerPoint Presentation
 [Click here to view the PPT](resource/T014_TECH_XAVIERS.pptx)
 ### 🎥 Project Video
-[Click here to view the project demo video](insert-drive-link-here)
+[Click here to view the project demo video](resource/video.mp4)
 
 ### 📹 YouTube Link
-[Watch the project on YouTube](insert-youtube-link-here)
+[Watch the project on YouTube](https://youtu.be/4HMvqSrvabQ)
 
 ---
